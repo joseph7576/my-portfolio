@@ -23,7 +23,7 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Joseph" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },

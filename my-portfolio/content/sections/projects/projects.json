@@ -7,7 +7,7 @@
       "description": "Some description and summary about the system and what i do in there",
       "tags": ["Start Up", "Development Phase", "Ready for Test"],
       "image": {
-        "src": "../../images/visaroad-sc.png",
+        "src": "../../images/projects/visaroad-sc.png",
         "alt": "VisaRoads Screenshot",
         "linkTo": "https://visaroads.com/"
       },
@@ -25,7 +25,7 @@
       "description": "Some description and summary about the system and what i do in there",
       "tags": ["Start Up", "Up & Running"],
       "image": {
-        "src": "../../images/iranrequest-sc.png",
+        "src": "../../images/projects/iranrequest-sc.png",
         "alt": "IranRequest Screenshot",
         "linkTo": "https://iranrequest.com/"
       },
@@ -43,7 +43,7 @@
       "description": "some tiny description about the project and what i have done and the project is done",
       "tags": ["Start Up", "Paused & Archived"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/projects/nftsship-sc.png",
         "alt": "NFTsSHIP screenshot"
       }
     },
@@ -54,7 +54,7 @@
       "description": "Some more description about this",
       "tags": ["Start Up", "Up & Running"],
       "image": {
-        "src": "../../images/taraz-sc.png",
+        "src": "../../images/projects/taraz-sc.png",
         "alt": "Taraz Screenshot",
         "linkTo": "https://taraz.org/"
       },
@@ -73,7 +73,7 @@
       "description": "Some more description about this",
       "tags": ["University Project", "Start Up", "Stopped"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/projects/kargahkadeh-sc.png",
         "alt": "KargahKadeh Screenshot"
       }
     }
@@ -81,7 +81,7 @@
   ],
   "button": {
     "visible": true,
-    "label": "Detailed Experiences On LinkedIn",
+    "label": "More Details In LinkedIn",
     "url": "https://www.linkedin.com/in/joeho7576/details/experience/"
   }
 }
