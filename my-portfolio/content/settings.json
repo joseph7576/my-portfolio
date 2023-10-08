@@ -1,19 +1,25 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "siteUrl": "https://portfolio.joeho.ir",
+    "title": "Yousef Hosseini Portfolio",
+    "titleTemplate": "%s · Yousef Hosseini Portfolio",
+    "description": "Yousef Hosseini Personla Portfolio, also known as Joseph, Minimalist Backend Developer",
+    "author": "Yousef Hosseini",
     "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "I consider myself a minimalist geek, in bits I trust and also I'm also passionate about game development.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
+      "behance": "https://bahance.com",
+      "github": "https://github.com/joseph7576",
+      "gitlab": "https://gitlab.com/joseph7576",
       "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "linkedin": "https://www.linkedin.com/in/joeho7576",
+      "mail": "mailto:hosseini7576@outlook.com",
+      "instagram": "https://www.instagram.com/jo_gal_ho/",
+      "twitter": "https://twitter.com/hosseini_joseph",
+      "reddit": "https://www.reddit.com/user/JoHo7576",
+      "stackoverflow": "https://stackoverflow.com/users/20261489/joseph-hosseini",
+      "telegram": "https://t.me/joeho7576"
     }
   },
   "siteConfiguration": {
@@ -21,9 +27,9 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Skills", "url": "/#skills" },
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "Contact", "url": "/#contact" }
       ],
       "ctaButton": {
         "openNewTab": true,
@@ -36,7 +42,7 @@
       ]
     },
     "featureToggles": {
-      "useDarkModeAsDefault": false,
+      "useDarkModeAsDefault": true,
       "useDarkModeBasedOnUsersPreference": true,
       "useCookieBar": false
     }

@@ -2,47 +2,86 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "BACKEND DEVELOPER | PART TIME · 1 YR",
+      "title": "VisaRoads",
+      "description": "Some description and summary about the system and what i do in there",
+      "tags": ["Start Up", "Development Phase", "Ready for Test"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/visaroad-sc.png",
+        "alt": "VisaRoads Screenshot",
+        "linkTo": "https://visaroads.com/"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://visaroads.com/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "FULL STACK | FREELANCE",
+      "title": "IranRequest",
+      "description": "Some description and summary about the system and what i do in there",
+      "tags": ["Start Up", "Up & Running"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/iranrequest-sc.png",
+        "alt": "IranRequest Screenshot",
+        "linkTo": "https://iranrequest.com/"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "external",
+          "url": "https://iranrequest.com/"
         }
       ]
+    },
+    {
+      "visible": true,
+      "category": "BACKEND DEVELOPER | FULL TIME · 5 MOS",
+      "title": "NFTsSHIP",
+      "description": "some tiny description about the project and what i have done and the project is done",
+      "tags": ["Start Up", "Paused & Archived"],
+      "image": {
+        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "alt": "NFTsSHIP screenshot"
+      }
+    },
+    {
+      "visible": true,
+      "category": "DJANGO DEVELOPER | FULL TIME · 3 MOS ",
+      "title": "Taraz",
+      "description": "Some more description about this",
+      "tags": ["Start Up", "Up & Running"],
+      "image": {
+        "src": "../../images/taraz-sc.png",
+        "alt": "Taraz Screenshot",
+        "linkTo": "https://taraz.org/"
+      },
+      "links": [
+
+        {
+          "type": "external",
+          "url": "https://taraz.org/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "TECHNICAL ASSISTANT | FULL TIME · 3 MOS",
+      "title": "KargahKadeh",
+      "description": "Some more description about this",
+      "tags": ["University Project", "Start Up", "Stopped"],
+      "image": {
+        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "alt": "KargahKadeh Screenshot"
+      }
     }
+
   ],
   "button": {
     "visible": true,
-    "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "label": "Detailed Experiences On LinkedIn",
+    "url": "https://www.linkedin.com/in/joeho7576/details/experience/"
   }
 }

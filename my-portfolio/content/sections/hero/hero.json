@@ -1,22 +1,21 @@
 {
-  "intro": "Hej",
+  "intro": "Hello!",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/profile2.jpeg",
     "alt": "My Photo"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm Yousef Hosseini",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+    "prefix": "aka Joseph - ",
+    "highlight": "Backend Developer"
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "As you can see I love minimal mindset - You can reach me via these options:",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Github", "Mail"],
     "showIcons": false
   }
 }
