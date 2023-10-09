@@ -4,7 +4,7 @@
       "visible": true,
       "category": "BACKEND DEVELOPER | PART TIME · 1 YR",
       "title": "VisaRoads",
-      "description": "Some description and summary about the system and what i do in there",
+      "description": "Now I'm currently working in an Emigration Start UP as part time backend developer. Again I was alone in the backend part and I learned alot of topics here. I started to apply my DevOps knowledge to build a fast and reliable system which is easy to develop and deploy in Agile/Scrum workflow.",
       "tags": ["Start Up", "Development Phase", "Ready for Test"],
       "image": {
         "src": "../../images/projects/visaroad-sc.png",
@@ -22,7 +22,7 @@
       "visible": true,
       "category": "FULL STACK | FREELANCE",
       "title": "IranRequest",
-      "description": "Some description and summary about the system and what i do in there",
+      "description": "When I got comfortable working with Django tech stack, I accepted this project. It was a full stack job for me, I downloaded the theme and started doing the backend work :D",
       "tags": ["Start Up", "Up & Running"],
       "image": {
         "src": "../../images/projects/iranrequest-sc.png",
@@ -40,7 +40,7 @@
       "visible": true,
       "category": "BACKEND DEVELOPER | FULL TIME · 5 MOS",
       "title": "NFTsSHIP",
-      "description": "some tiny description about the project and what i have done and the project is done",
+      "description": "It was mid April 22 that Taraz changed their backend technology to C#/ASP.NET, After sending resume I got the job in VaniaIT, A holding that consist of multiple start ups. I worked there to build NFT marketplace for local artists. I single-handedly built the entire backend (phase 1) of the project. I gained alot of experience working alone in this project.",
       "tags": ["Start Up", "Paused & Archived"],
       "image": {
         "src": "../../images/projects/nftsship-sc.png",
@@ -51,7 +51,7 @@
       "visible": true,
       "category": "DJANGO DEVELOPER | FULL TIME · 3 MOS ",
       "title": "Taraz",
-      "description": "Some more description about this",
+      "description": "January 2022 and I completed python backend course, I sent my resume and I got the internship. It was my first official junior python/django developer working experience. The purpose of Taraz Start Up was to build online eduction platfrom for local schools.",
       "tags": ["Start Up", "Up & Running"],
       "image": {
         "src": "../../images/projects/taraz-sc.png",
@@ -68,9 +68,9 @@
     },
     {
       "visible": true,
-      "category": "TECHNICAL ASSISTANT | FULL TIME · 3 MOS",
+      "category": "TECHNICAL ASSISTANT | FULL TIME · 4 MOS",
       "title": "KargahKadeh",
-      "description": "Some more description about this",
+      "description": "It was April 2021, And my first work experience was a Start Up that first was a university project about medical engineering topics, The goal was to gamification medical engineering courses. I was working there as Unity developer & mostly technical assistant.",
       "tags": ["University Project", "Start Up", "Stopped"],
       "image": {
         "src": "../../images/projects/kargahkadeh-sc.png",

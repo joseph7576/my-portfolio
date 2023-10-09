@@ -148,28 +148,28 @@
       }
     },
     {
-      "label": "HTML, CSS, JS",
+      "label": "HTML | CSS | JS",
       "image": {
         "src": "../../images/skills/html.png",
         "alt": "html css js image"
       }
     },
     {
-      "label": "Gitlab CI/CD pipeline",
+      "label": "Gitlab | CI/CD pipeline",
       "image": {
         "src": "../../images/skills/gitlab.png",
         "alt": "gitlab image"
       }
     },
     {
-      "label": "Git/Github",
+      "label": "Git | Github",
       "image": {
         "src": "../../images/skills/github.png",
         "alt": "github image"
       }
     },
     {
-      "label": "Scrum/Agile",
+      "label": "Scrum | Agile",
       "image": {
         "src": "../../images/skills/agile.png",
         "alt": "scrum-agile image"
