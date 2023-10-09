@@ -3,7 +3,7 @@
     "language": "en",
     "siteUrl": "https://portfolio.joeho.ir",
     "title": "Yousef Hosseini Portfolio",
-    "titleTemplate": "%s · Yousef Hosseini Portfolio",
+    "titleTemplate": "%s · Yousef Hosseini · Portfolio",
     "description": "Yousef Hosseini Personla Portfolio, also known as Joseph, Minimalist Backend Developer",
     "author": "Yousef Hosseini",
     "avatar": "../content/images/gatsby.png",
@@ -37,8 +37,7 @@
         "url": "/resume.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "U LIKE THIS THEME? :D", "url": "/theme" }
       ]
     },
     "featureToggles": {

@@ -1,13 +1,13 @@
 {
   "name": "Yousef Hosseini",
   "email": "hosseini7576@outlook.com",
-  "description": "If you liked this portfolio - you can make it - it's ez :D",
+  "description": "Also I love and admire any art form, I do photography for hobby, make sure to check my IG :D",
   "image": {
-    "src": "../../images/profile/profile3.jpeg",
+    "src": "../../images/profile/profile4.jpg",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Github", "Mail", "Gitlab", "Instagram", "StackOverflow", "twitter", "reddit"],
+    "from": ["Mail", "LinkedIn", "Github",  "Gitlab", "Instagram", "StackOverflow", "twitter", "reddit"],
     "showIcons": true
   }
 }
