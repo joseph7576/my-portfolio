@@ -3,175 +3,182 @@
     {
       "label": "Python",
       "image": {
-        "src": "../../images/joystick.png",
-        "alt": ""
+        "src": "../../images/skills/python.png",
+        "alt": "python image"
       }
     },
     {
       "label": "Django",
       "image": {
-        "src": "../../images/notebook.png",
-        "alt": ""
+        "src": "../../images/skills/django.png",
+        "alt": "django image"
       }
     },
     {
       "label": "REST Framework",
       "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
+        "src": "../../images/skills/rest.png",
+        "alt": "rest framework image"
       }
     },
     {
       "label": "JWT",
       "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
+        "src": "../../images/skills/jwt.png",
+        "alt": "jwt image"
       }
     },
     {
       "label": "Celery",
       "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Docker",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/celery.png",
+        "alt": "celery image"
       }
     },
     {
       "label": "Swagger",
       "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
+        "src": "../../images/skills/swagger.png",
+        "alt": "swagger image"
       }
     },
     {
-      "label": "PostgreSQL",
+      "label": "Docker",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "MySQL",
-      "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Redis",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "MongoDB",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Postman",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Nginx",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "HTML, CSS, JS",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/docker.png",
+        "alt": "docker image"
       }
     },
     {
       "label": "Kubernetes",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "CI/CD",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Jenkins",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Git",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/k8s.png",
+        "alt": "kubernetes image"
       }
     },
     {
       "label": "Linux",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/linux.png",
+        "alt": "linux image"
       }
     },
     {
-      "label": "Notion",
+      "label": "Bash Script",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/bash.png",
+        "alt": "bash script image"
       }
     },
     {
-      "label": "Obsidian",
+      "label": "Nginx",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/nginx.png",
+        "alt": "nginx image"
       }
     },
     {
-      "label": "Gitlab",
+      "label": "Nexus Registry",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/nexus.png",
+        "alt": "nexus registry image"
+      }
+    },
+    {
+      "label": "Jenkins",
+      "image": {
+        "src": "../../images/skills/jenkins.png",
+        "alt": "jenkins image"
+      }
+    },
+    {
+      "label": "CI/CD",
+      "image": {
+        "src": "../../images/skills/cicd.png",
+        "alt": "ci-cd image"
       }
     },
     {
       "label": "Terraform",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/terraform.png",
+        "alt": "terraform image"
       }
     },
     {
-      "label": "Leetcode",
+      "label": "PostgreSQL",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/skills/postgre.png",
+        "alt": "postgresql images"
+      }
+    },
+    {
+      "label": "MySQL",
+      "image": {
+        "src": "../../images/skills/mysql.png",
+        "alt": "mysql image"
+      }
+    },
+    {
+      "label": "Redis",
+      "image": {
+        "src": "../../images/skills/redis2.png",
+        "alt": "redis image"
+      }
+    },
+    {
+      "label": "MongoDB",
+      "image": {
+        "src": "../../images/skills/mongodb2.png",
+        "alt": "mongodb image"
+      }
+    },
+    {
+      "label": "Postman",
+      "image": {
+        "src": "../../images/skills/postman.png",
+        "alt": "postman image"
+      }
+    },
+    {
+      "label": "Wireshark",
+      "image": {
+        "src": "../../images/skills/wireshark.png",
+        "alt": "wireshark image"
+      }
+    },
+    {
+      "label": "HTML, CSS, JS",
+      "image": {
+        "src": "../../images/skills/html.png",
+        "alt": "html css js image"
+      }
+    },
+    {
+      "label": "Gitlab CI/CD pipeline",
+      "image": {
+        "src": "../../images/skills/gitlab.png",
+        "alt": "gitlab image"
+      }
+    },
+    {
+      "label": "Git/Github",
+      "image": {
+        "src": "../../images/skills/github.png",
+        "alt": "github image"
+      }
+    },
+    {
+      "label": "Scrum/Agile",
+      "image": {
+        "src": "../../images/skills/agile.png",
+        "alt": "scrum-agile image"
       }
     }
   ],
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 6
+    "initiallyShownInterests": 8
   }
 }
