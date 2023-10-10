@@ -1,13 +1,13 @@
 {
   "name": "Yousef Hosseini",
   "email": "hosseini7576@outlook.com",
-  "description": "Also I love and admire any art form, I do photography for hobby, make sure to check my IG :D",
+  "description": "Also I love and admire any art form, I do photography for hobby, make sure to check my Instagram profile.",
   "image": {
     "src": "../../images/profile/profile4.jpg",
-    "alt": "Gatsby Logo"
+    "alt": "My Avatar"
   },
   "socialProfiles": {
-    "from": ["Mail", "LinkedIn", "Github",  "Gitlab", "Instagram", "StackOverflow", "twitter", "reddit"],
+    "from": ["LinkedIn", "Github", "Gitlab", "Instagram"],
     "showIcons": true
   }
 }
