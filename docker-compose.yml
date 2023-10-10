@@ -1,5 +1,13 @@
 version: '3.8'
 
+networks:
+  default:
+    name: web_net
+
+volumes:
+  traefik-acme:
+    name: traefik-acme
+
 services:
   portfolio:
     image: test-portfolio
@@ -7,5 +15,69 @@ services:
       context: my-portfolio
       dockerfile: Dockerfile
     container_name: my-portfolio
+    networks:
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web_net"
+      - "traefik.http.routers.portfolio.entrypoints=http"
+      - "traefik.http.routers.portfolio.rule=Host(`portfolio.joeho.ir`)"
+      - "traefik.http.routers.portfolio.service=portfolio-secure"
+      - "traefik.http.routers.portfolio.middlewares=https-redirect"
+      - "traefik.http.routers.portfolio-secure.entrypoints=https"
+      - "traefik.http.routers.portfolio-secure.rule=Host(`portfolio.joeho.ir`)"
+      - "traefik.http.routers.portfolio-secure.tls=true"
+      - "traefik.http.routers.portfolio-secure.tls.options=default"
+      - "traefik.http.routers.portfolio-secure.tls.certresolver=mycert"
+      - "traefik.http.routers.portfolio-secure.service=portfolio-secure"
+      - "traefik.http.services.portfolio-secure.loadbalancer.server.port=9000"
+
+  traefik:
+    image: traefik:v2.4.8
+    container_name: traefik 
+    command:
+      - "--log.level=INFO"
+      - "--log.filepath=/log-file.log"
+      - "--log.format=json"
+      - "--api=true"
+      - "--ping=true"
+      - "--accesslog=true"
+      - "--accesslog.bufferingsize=100"
+      - "--api.insecure=true"
+      - "--providers.docker.endpoint=unix:///var/run/docker.sock"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.docker.network=web_net"
+      - "--entrypoints.http.address=:80"
+      - "--entrypoints.https.address=:443"
+
+      - "--certificatesresolvers.mycert.acme.email=joeho7576@gmail.com"
+      - "--certificatesresolvers.mycert.acme.storage=/acme/acme.json"
+      - "--certificatesresolvers.mycert.acme.tlschallenge=true"
+
+      - "--providers.file.filename=/traefik/config.yml"
     ports:
-      - 9000:9000
+      - 80:80
+      - 443:443
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - traefik-acme:/acme
+      - ./traefik:/traefik
+    networks:
+      - default
+
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web_net"
+      - "traefik.http.routers.traefik.entrypoints=http"
+      - "traefik.http.routers.traefik.rule=Host(`traefik.joeho.ir`)"
+      - "traefik.http.routers.traefik.middlewares=https-redirect"
+      - "traefik.http.middlewares.https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.web-auth.basicauth.users=joeho:$$apr1$$Vn/8PiND$$kNusOTQC3AkFso2F.X8t1."
+      - "traefik.http.routers.traefik-secure.middlewares=web-auth"
+      - "traefik.http.routers.traefik-secure.entrypoints=https"
+      - "traefik.http.routers.traefik-secure.rule=Host(`traefik.joeho.ir`)"
+      - "traefik.http.routers.traefik-secure.tls=true"
+      - "traefik.http.routers.traefik-secure.tls.options=default"
+      - "traefik.http.routers.traefik-secure.tls.certresolver=mycert"
+      - "traefik.http.services.traefik.loadbalancer.server.port=8080"
