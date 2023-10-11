@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  portfolio:
+    image: test-portfolio
+    build:
+      context: my-portfolio
+      dockerfile: Dockerfile
+    container_name: my-portfolio
+    ports:
+      - 9000:9000
