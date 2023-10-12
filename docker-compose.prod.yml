@@ -13,7 +13,7 @@ services:
     image: test-portfolio
     build:
       context: my-portfolio
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     container_name: my-portfolio
     networks:
       - default
