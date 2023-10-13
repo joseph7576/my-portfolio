@@ -2,6 +2,17 @@ pipeline {
     agent any
 
     stages{
+        stage('test some stuff') {
+            steps {
+                sh '''
+                    docker version
+                    docker info
+                    docker compose version
+                    curl --version
+                '''
+            }
+        }
+
         stage('build') {
             steps {
                 sh 'docker-compose -f docker-compose.prod.yml build --no-cache'
