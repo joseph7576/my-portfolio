@@ -4,7 +4,13 @@ pipeline {
     stages{
         stage('build') {
             steps {
-                sh 'ls'
+                sh 'docker-compose -f docker-compose.prod.yml build --no-cache'
+            }
+        }
+
+        stage('deploy'){
+            steps {
+                sh 'docker-compose -f docker-compose.prod.yml up -d'
             }
         }
     }
