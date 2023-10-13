@@ -4,27 +4,12 @@ pipeline {
     stages{
         stage('test some stuff') {
             steps {
-                sh '''
-                    docker version
-                    docker info
-                    docker compose version
-                    curl --version
-                    docker ps -a
-                    docker compose ps
-                '''
+                // ssh -o StrictHostKeyChecking=no -i $SSH_PRIVATE_KEY joe@65.109.197.224
+                sshagent(credentials: ['vps_joeho']) {
+                    sh 'ssh -o StrictHostKeyChecking joe@65.109.197.224 sh script.sh'
+                }
             }
         }
 
-        stage('build') {
-            steps {
-                sh 'docker-compose -f docker-compose.prod.yml build --no-cache'
-            }
-        }
-
-        stage('deploy'){
-            steps {
-                sh 'docker-compose -f docker-compose.prod.yml up -d'
-            }
-        }
     }
 }
