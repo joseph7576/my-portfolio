@@ -57,6 +57,13 @@
       }
     },
     {
+      "label": "traefik",
+      "image": {
+        "src": "../../images/skills/Traefik.png",
+        "alt": "traefik image"
+      }
+    },
+    {
       "label": "Linux",
       "image": {
         "src": "../../images/skills/linux.png",
@@ -162,14 +169,28 @@
       }
     },
     {
-      "label": "Git | Github",
+      "label": "Github | Git",
       "image": {
         "src": "../../images/skills/github.png",
         "alt": "github image"
       }
     },
     {
-      "label": "Scrum | Agile",
+      "label": "Unity",
+      "image": {
+        "src": "../../images/skills/unity.png",
+        "alt": "unity image"
+      }
+    },
+    {
+      "label": "C#",
+      "image": {
+        "src": "../../images/skills/csharp.png",
+        "alt": "csharp image"
+      }
+    },
+    {
+      "label": "Agile | Scrum",
       "image": {
         "src": "../../images/skills/agile.png",
         "alt": "scrum-agile image"
